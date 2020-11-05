@@ -26,4 +26,13 @@ public class Artikl {
 
         return cijena;
     }
+
+    @Override
+    public String toString() {
+        return "Artikl{" +
+                "naziv='" + naziv + '\'' +
+                ", kod='" + kod + '\'' +
+                ", cijena=" + cijena +
+                '}';
+    }
 }
